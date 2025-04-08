@@ -37,7 +37,8 @@ Ela permite o monitoramento através buscas automatizadas e agendadas em arquivo
 Como ela funciona?
 Uma aplicação construida com React Native (Expo SDK 52) consome um a api construída em python. 
 Dois endpoints são a base do aplicativo fornecendo arquivos e resultados para consumo no app móvel.
-As respostas dos dois endpoints são no formato json.
+As resposta do endpoint de pesquisa é no formato json. O endpoint para obtenção de do retorna o link para o 
+arquivo pdf do do mais recente.
 
 
 <h2>Principais Telas do Projeto em Uso:</h2>
