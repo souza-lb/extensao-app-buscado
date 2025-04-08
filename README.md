@@ -16,7 +16,7 @@ Este repositório fornece:
 
 * server-buscado.py: Arquivo com backend da aplicação (pasta api). Fornece a api para consumo pelo aplicativo móvel (endpoints)
 
-* requisitos.txt: Arquivo com requisitos para rodar api python (backend) 
+* requisitos-python.txt: Arquivo com requisitos para rodar api python (backend) 
 
 Para criar o ambiente você vai precisar basicamente de:
 
