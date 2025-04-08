@@ -4,7 +4,7 @@
 
 <b>Repositório Pricipal do Projeto BuscaDO</b>
 
-<b>Ambiente de desenvolvimento básico do projeto com a utilização do OpenJDK17, Maven, Node v22.14.0</b>
+<b>Ambiente de desenvolvimento básico do projeto com a utilização do OpenJDK17, Maven, Node v22.14.0, Expo SDK 52</b>
 
 Este repositório fornece:
 
@@ -14,7 +14,9 @@ Este repositório fornece:
 
 * package.json: Depêndencias projeto React Native para execução do aplicativo móvel.
 
-* server-buscado.py: Arquivo com backend da aplicação. Fornece a api para consumo pelo aplicativo móvel (endpoints) 
+* server-buscado.py: Arquivo com backend da aplicação (pasta api). Fornece a api para consumo pelo aplicativo móvel (endpoints)
+
+* requisitos.txt: Arquivo com requisitos para rodar api python (backend) 
 
 Para criar o ambiente você vai precisar basicamente de:
 
@@ -29,7 +31,7 @@ Sistema Operacional Utilizado:  GNU/Linux Debian 12.10.0
 
 
 O que essa aplicação faz?
-Ela permite buscas automatizadas e agendadas em arquivos do Diário Oficial da Prefeitura de Nova Iguaçu.
+Ela permite o monitoramento através buscas automatizadas e agendadas em arquivos do Diário Oficial da Prefeitura de Nova Iguaçu.
 
 Como ela funciona?
 Uma aplicação construida com React Native (Expo SDK 52) consome um a api construída em python. 
