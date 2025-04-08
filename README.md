@@ -64,11 +64,11 @@ Notificação de agendamento e resultado
 
 Servidor Backend (API)  
 
-![backend](/imagens/tela-backend.jpeg)
+![backend](/imagens/tela-backend.png)
 
 Tela Expo  
 
-![tela expo](/imagens/tela-expo.jpeg)  
+![tela expo](/imagens/tela-expo.png)  
 
 
 Este repositório foi criado por: <b>Leonardo Bruno de Souza Silva</b><br>
