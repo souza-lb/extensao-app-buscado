@@ -43,7 +43,7 @@ Dois endpoints são a base do aplicativo fornecendo arquivos e resultados para c
 
 Tela DO Atual
 
-![tela inicial](/imagens/tela-do-atual.jpeg)
+<img src="/imagens/tela-do-atual.jpeg" alt="tela inicial" style="width: 50%; height: auto;">
 
 Download arquivo 
 
