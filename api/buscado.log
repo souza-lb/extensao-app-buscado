@@ -1,0 +1,114 @@
+2025-04-07 13:07:01,545 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 13:07:01,545 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 13:07:56,979 - INFO - 127.0.0.1 - - [07/Apr/2025 13:07:56] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 13:07:57,151 - INFO - 127.0.0.1 - - [07/Apr/2025 13:07:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 13:09:48,508 - INFO - 127.0.0.1 - - [07/Apr/2025 13:09:48] "GET /dobusca?nome=Marcus%20Antonio HTTP/1.1" 200 -
+2025-04-07 13:09:48,786 - INFO - 127.0.0.1 - - [07/Apr/2025 13:09:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 13:10:40,057 - INFO - 127.0.0.1 - - [07/Apr/2025 13:10:40] "GET /dobusca?nome=Marcus%20Antônio HTTP/1.1" 200 -
+2025-04-07 13:10:40,211 - INFO - 127.0.0.1 - - [07/Apr/2025 13:10:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 13:11:26,956 - INFO - 127.0.0.1 - - [07/Apr/2025 13:11:26] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 13:50:54,060 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 13:50:54,061 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 14:06:09,943 - ERROR - 192.168.0.109 - - [07/Apr/2025 14:06:09] code 400, message Bad request version ('\x88\x05WÝÕ\x98T\x17\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-04-07 14:06:09,944 - INFO - 192.168.0.109 - - [07/Apr/2025 14:06:09] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03ì\x0f\x92»wJ\x96Ù\x0eÀ\x09PÇ?Nö%§j\x82^Êæ\x04{}R\x86øÃ¼Ã FUç¢\x19cùÒà ©ùÀÿMCh\x0fyûY#\x09\x0d\x88\x05WÝÕ\x98T\x17\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-04-07 14:07:22,893 - INFO - 192.168.0.165 - - [07/Apr/2025 14:07:22] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 14:11:15,788 - ERROR - 192.168.0.109 - - [07/Apr/2025 14:11:15] code 400, message Bad request version ('¿3Ï\x14\x1a\x9d\x81>ª\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-04-07 14:11:15,788 - INFO - 192.168.0.109 - - [07/Apr/2025 14:11:15] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03q÷ú\x9eÂ·h6eéùÞÊIÐ©nHä\x9a8GH¢t\x9cE\x06\x83ä½l ËÂ¼Z\x1cÓ;qÖ¿¸\x96`©y"\x90Ø¼V\x8eÕ\x1d¿3Ï\x14\x1a\x9d\x81>ª\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-04-07 14:11:16,821 - ERROR - 192.168.0.109 - - [07/Apr/2025 14:11:16] code 400, message Bad request version ('\x08ä*»%ßs')
+2025-04-07 14:11:16,821 - INFO - 192.168.0.109 - - [07/Apr/2025 14:11:16] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03®ÜF\x91jº\x94\x97§L¦°Ø-¾)\x11E>«pU]÷ô\x94,\x86Tb\x09² \x08ä*»%ßs[0m" 400 -
+2025-04-07 14:11:37,237 - ERROR - 192.168.0.109 - - [07/Apr/2025 14:11:37] code 400, message Bad request version ('_')
+2025-04-07 14:11:37,237 - INFO - 192.168.0.109 - - [07/Apr/2025 14:11:37] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03¬ì\x7f£Ø\x91\x90\x8eñ¨ôÈ\x9a\x16¿«\x02Ò\x9f\x17²\x1aü\x0f\x9aÈaÕv«3: \x06òq\x14ì}\x0d\x9b\x8c4(ð\x8a _[0m" 400 -
+2025-04-07 14:11:46,363 - ERROR - 192.168.0.109 - - [07/Apr/2025 14:11:46] code 400, message Bad request version ("\x98D\x07&\x8d\x87-'¿Á\xad\x9fX")
+2025-04-07 14:11:46,364 - INFO - 192.168.0.109 - - [07/Apr/2025 14:11:46] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03>¬Ã\x1fgú¦ú\x98\x02ìò¹²J´\x82\x87Y©4÷\x03k\x84Û¹µ6F\\ã \x98D\x07&\x8d\x87-'¿Á­\x9fX[0m" 400 -
+2025-04-07 14:11:50,879 - INFO - 127.0.0.1 - - [07/Apr/2025 14:11:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-07 14:11:51,180 - INFO - 127.0.0.1 - - [07/Apr/2025 14:11:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 14:12:19,271 - INFO - 127.0.0.1 - - [07/Apr/2025 14:12:19] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 16:42:58,162 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 16:42:58,162 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 17:25:35,857 - INFO - 192.168.0.109 - - [07/Apr/2025 17:25:35] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 17:44:16,038 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 17:44:16,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 18:57:28,810 - INFO - 192.168.0.165 - - [07/Apr/2025 18:57:28] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 19:24:22,112 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 19:24:22,112 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 19:47:25,272 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 19:47:25,272 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 20:36:30,166 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 20:36:30,166 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 20:38:24,704 - INFO - 192.168.0.165 - - [07/Apr/2025 20:38:24] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 20:48:33,500 - INFO - 192.168.0.165 - - [07/Apr/2025 20:48:33] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 20:50:56,738 - ERROR - Erro ao acessar o site: HTTPConnectionPool(host='localhost', port=58537): Read timed out. (read timeout=120)
+2025-04-07 20:51:17,244 - INFO - 192.168.0.165 - - [07/Apr/2025 20:51:17] "[35m[1mGET /dobusca?nome=Leonardo%20Bruno HTTP/1.1[0m" 500 -
+2025-04-07 20:51:38,991 - ERROR - Erro ao acessar o site: HTTPConnectionPool(host='localhost', port=42365): Read timed out. (read timeout=120)
+2025-04-07 20:51:48,464 - INFO - 192.168.0.165 - - [07/Apr/2025 20:51:48] "[35m[1mGET /dorecente HTTP/1.1[0m" 500 -
+2025-04-07 20:53:20,333 - INFO - 192.168.0.165 - - [07/Apr/2025 20:53:20] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 20:53:52,368 - INFO - 192.168.0.165 - - [07/Apr/2025 20:53:52] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 20:59:51,563 - INFO - 192.168.0.165 - - [07/Apr/2025 20:59:51] "GET /dobusca?nome=Paulo%20Sérgio HTTP/1.1" 200 -
+2025-04-07 21:19:44,016 - INFO - 192.168.0.165 - - [07/Apr/2025 21:19:44] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 21:39:44,438 - INFO - 192.168.0.165 - - [07/Apr/2025 21:39:44] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 21:39:53,655 - INFO - 192.168.0.165 - - [07/Apr/2025 21:39:53] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 21:40:17,696 - ERROR - Erro no endpoint /dorecente: 404 Client Error: Not Found for url: https://www.doweb.novaiguacu.rj.gov.br/uploads/pmni_de_07-04-2025_-_segunda-feira_ok_(1)_04062355.pdf
+2025-04-07 21:40:20,457 - INFO - 192.168.0.165 - - [07/Apr/2025 21:40:20] "[35m[1mGET /dorecente HTTP/1.1[0m" 500 -
+2025-04-07 21:44:45,200 - INFO - 192.168.0.165 - - [07/Apr/2025 21:44:45] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 21:46:05,353 - INFO - 192.168.0.165 - - [07/Apr/2025 21:46:05] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 22:00:14,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 22:00:14,395 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 22:02:38,507 - INFO - 192.168.0.165 - - [07/Apr/2025 22:02:38] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 22:04:03,869 - INFO - 192.168.0.165 - - [07/Apr/2025 22:04:03] "GET /dobusca?nome=Eduardo%20Reina HTTP/1.1" 200 -
+2025-04-07 22:10:37,779 - INFO - 192.168.0.165 - - [07/Apr/2025 22:10:37] "GET /dorecente HTTP/1.1" 200 -
+2025-04-07 22:24:16,892 - ERROR - Erro no endpoint /dobusca: 404 Client Error: Not Found for url: https://www.doweb.novaiguacu.rj.gov.br/uploads/pmni_de_07-04-2025_-_segunda-feira_ok_(1)_04062355.pdf
+2025-04-07 22:24:29,854 - INFO - 192.168.0.165 - - [07/Apr/2025 22:24:29] "[35m[1mGET /dobusca?nome=Leonardo%20Bruno HTTP/1.1[0m" 500 -
+2025-04-07 22:25:06,292 - INFO - 192.168.0.165 - - [07/Apr/2025 22:25:06] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 22:25:07,083 - INFO - 192.168.0.165 - - [07/Apr/2025 22:25:07] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 22:25:07,558 - INFO - 192.168.0.165 - - [07/Apr/2025 22:25:07] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 22:32:00,288 - INFO - 192.168.0.165 - - [07/Apr/2025 22:32:00] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 22:32:00,858 - INFO - 192.168.0.165 - - [07/Apr/2025 22:32:00] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 22:32:02,214 - INFO - 192.168.0.165 - - [07/Apr/2025 22:32:02] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 22:32:02,472 - INFO - 192.168.0.165 - - [07/Apr/2025 22:32:02] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 23:03:36,865 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 23:03:36,865 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 23:09:46,721 - INFO - 192.168.0.165 - - [07/Apr/2025 23:09:46] "GET /dobusca?nome=Leonardo%20Bruno%20 HTTP/1.1" 200 -
+2025-04-07 23:09:46,912 - INFO - 192.168.0.165 - - [07/Apr/2025 23:09:46] "GET /dobusca?nome=Leonardo%20Bruno%20 HTTP/1.1" 200 -
+2025-04-07 23:17:18,056 - INFO - 192.168.0.165 - - [07/Apr/2025 23:17:18] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 23:19:24,400 - INFO - 192.168.0.165 - - [07/Apr/2025 23:19:24] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 23:24:03,500 - INFO - 192.168.0.165 - - [07/Apr/2025 23:24:03] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 23:25:20,181 - INFO - 192.168.0.165 - - [07/Apr/2025 23:25:20] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 23:36:26,010 - INFO - 192.168.0.165 - - [07/Apr/2025 23:36:26] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-07 23:37:54,259 - INFO - 192.168.0.165 - - [07/Apr/2025 23:37:54] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-08 00:01:49,606 - INFO - 192.168.0.165 - - [08/Apr/2025 00:01:49] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-08 00:19:38,337 - INFO - 192.168.0.165 - - [08/Apr/2025 00:19:38] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-08 00:28:27,258 - INFO - 192.168.0.165 - - [08/Apr/2025 00:28:27] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-08 00:29:45,946 - INFO - 192.168.0.165 - - [08/Apr/2025 00:29:45] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-08 00:30:57,558 - ERROR - Erro no endpoint /dobusca: 403 Client Error: Forbidden for url: https://www.doweb.novaiguacu.rj.gov.br/portal/diario-oficial
+2025-04-08 00:30:59,316 - INFO - 192.168.0.165 - - [08/Apr/2025 00:30:59] "[35m[1mGET /dobusca?nome=Leonardo%20Bruno HTTP/1.1[0m" 500 -
+2025-04-08 00:33:24,484 - INFO - 192.168.0.165 - - [08/Apr/2025 00:33:24] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-08 00:35:33,758 - INFO - 192.168.0.165 - - [08/Apr/2025 00:35:33] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
+2025-04-08 00:46:56,165 - INFO - 192.168.0.165 - - [08/Apr/2025 00:46:56] "GET /dorecente HTTP/1.1" 200 -
+2025-04-08 00:47:25,941 - INFO - 192.168.0.165 - - [08/Apr/2025 00:47:25] "GET /dobusca?nome=Leonardo%20Bruno HTTP/1.1" 200 -
