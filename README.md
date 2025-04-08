@@ -26,6 +26,7 @@ Para criar o ambiente você vai precisar basicamente de:
 * Gecko Driver Linux amd64
 * Git 2.39.2 ( ou superior) opcional
 * Expo SDK 52
+* Python 3.11.2 (ou superior) para execução do backend (api)
 
 Sistema Operacional Utilizado:  GNU/Linux Debian 12.10.0
 
