@@ -47,7 +47,7 @@ Tela DO Atual
 
 Download arquivo 
 
-![download arquivo](/imagens/download-arquivo.jpeg)  
+<img src="/imagens/tela-arquivo.jpeg" alt="tela inicial" style="width: 30%; height: auto;">
 
 Tela para busca de nome  
 
