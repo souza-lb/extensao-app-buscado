@@ -75,7 +75,7 @@ Tela Expo
 
 Este repositório foi criado por: <b>Leonardo Bruno de Souza Silva</b><br>
 <b>Matrícula 202301011744</b><br>
-<b>Projeto de Extensão AppBuscaDO da Disciplina Programação pada Disposistivos Móveis em Android </b><br>
+<b>Projeto de Extensão AppBuscaDO da Disciplina Programação para Disposistivos Móveis em Android </b><br>
 202301011744@alunos.estacio.br<br>
 <b>souzalb@proton.me</b>
 
