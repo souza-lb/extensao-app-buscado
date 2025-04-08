@@ -43,35 +43,35 @@ Dois endpoints são a base do aplicativo fornecendo arquivos e resultados para c
 
 Tela DO Atual
 
-![tela inicial](/imagens/tela-do-atual.png)
+![tela inicial](/imagens/tela-do-atual.jpeg)
 
 Download arquivo 
 
-![download arquivo](/imagens/download-arquivo.png)  
+![download arquivo](/imagens/download-arquivo.jpeg)  
 
 Tela para busca de nome  
 
-![tela busca](/imagens/tela-busca-nome.png)  
+![tela busca](/imagens/tela-busca-nome.jpeg)  
 
 Tela Agendamento  
 
-![tela agendamento](/imagens/tela-agendamento.png)  
+![tela agendamento](/imagens/tela-agendamento.jpeg)  
 
 Notificação de agendamento  
 
-![notificação agendendamento](/imagens/notificação-agendamento.png)  
+![notificação agendendamento](/imagens/notificação-agendamento.jpeg)  
 
 Notificação Resultados agendamento  
 
-![notificação resultados](/imagens/notificação-resultados.png)  
+![notificação resultados](/imagens/notificação-resultados.jpeg)  
 
 Servidor Backend (API)  
 
-![backend](/imagens/tela-backend.png)
+![backend](/imagens/tela-backend.jpeg)
 
 Tela Expo  
 
-![tela expo](/imagens/tela-expo.png)  
+![tela expo](/imagens/tela-expo.jpeg)  
 
 
 Este repositório foi criado por: <b>Leonardo Bruno de Souza Silva</b><br>
