@@ -51,19 +51,16 @@ Download arquivo
 
 Tela para busca de nome  
 
-![tela busca](/imagens/tela-busca-nome.jpeg)  
+<img src="/imagens/tela-busca.jpeg" alt="tela inicial" style="width: 30%; height: auto;">
 
 Tela Agendamento  
 
-![tela agendamento](/imagens/tela-agendamento.jpeg)  
+<img src="/imagens/tela-agendamento.jpeg" alt="tela inicial" style="width: 30%; height: auto;">
 
-Notificação de agendamento  
+Notificação de agendamento e resultado  
 
-![notificação agendendamento](/imagens/notificação-agendamento.jpeg)  
-
-Notificação Resultados agendamento  
-
-![notificação resultados](/imagens/notificação-resultados.jpeg)  
+<img src="/imagens/notificações.jpeg" alt="tela inicial" style="width: 30%; height: auto;">  
+  
 
 Servidor Backend (API)  
 
