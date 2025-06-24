@@ -90,8 +90,8 @@ python3 server-buscado.py
 
 ### Frontend (Aplicativo React Native)
 ```bash
-# 7. Acesse a pasta do app
-cd ../extensao-app-buscado
+# 7. Abra um  novo terminal na pasta "extensao-app-buscado"
+cd ..
 
 # 8. Instale dependências Node.js
 npm install
