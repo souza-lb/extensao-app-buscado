@@ -44,7 +44,7 @@ export default function StatusScreen() {
 
   const fetchStatus = async () => {
     try {
-      const response = await fetch('http://192.168.0.129:5000/status');
+      const response = await fetch('http://192.168.0.99:5000/status');
       const data: StatusData = await response.json();
       setStatus(data);
       setError('');
