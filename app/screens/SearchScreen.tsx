@@ -16,7 +16,7 @@ export default function SearchScreen() {
     setLoading(true);
     try {
       const response = await fetch(
-        `http://192.168.0.129:5000/dobusca?nome=${encodeURIComponent(search)}`
+        `http://192.168.0.99:5000/dobusca?nome=${encodeURIComponent(search)}`
       );
       const data = await response.json();
       if (response.ok) {
