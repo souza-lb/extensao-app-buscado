@@ -96,10 +96,11 @@ cd ..
 # 8. Instale dependências Node.js
 npm install
 
-# 9. Configure os endpoints
-# (Atualize os IPs nos arquivos em /app/screens)
+# 9. Configure o ip dos endpoints
+chmod +x configura-endpoint
+./configura-endpoint &&
 
-# 10. Inicie o servidor de desenvolvimento
+# 10. Inicia o servidor de desenvolvimento
 npx expo start
 ```
 
