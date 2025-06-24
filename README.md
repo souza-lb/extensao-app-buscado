@@ -65,6 +65,53 @@ D --> G[Notificações Programadas]
 
 ---
 
+## 🚀 Como Rodar o Projeto?
+
+### Backend (API Python)
+```bash
+# 1. Clone o repositório
+git clone https://github.com/souza-lb/extensao-app-buscado.git
+
+# 2. Acesse a pasta da API
+cd extensao-app-buscado/api
+
+# 3. Crie um ambiente virtual
+python3 -m venv server
+
+# 4. Ative o ambiente (Linux)
+source server/bin/activate
+
+# 5. Instale dependências
+pip install -r requisitos-python.txt
+
+# 6. Inicie o servidor
+python3 server-buscado.py
+```
+
+### Frontend (Aplicativo React Native)
+```bash
+# 7. Acesse a pasta do app
+cd ../extensao-app-buscado
+
+# 8. Instale dependências Node.js
+npm install
+
+# 9. Configure os endpoints
+# (Atualize os IPs nos arquivos em /app/screens)
+
+# 10. Inicie o servidor de desenvolvimento
+npx expo start
+```
+
+### Após iniciar:
+1. Escaneie o QR code com app Expo Go (dispositivo físico)
+2. Ou pressione:  
+   `a` - Android Emulator  
+   `i` - iOS Simulator  
+   `w` - Navegador Web
+
+---
+
 ## 🖥️ Telas do Projeto
 
 ### 📱 Interface do Usuário
