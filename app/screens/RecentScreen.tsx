@@ -8,7 +8,7 @@ export default function RecentScreen() {
   const handleDownload = async () => {
     setLoading(true);
     try {
-      await Linking.openURL('http://192.168.0.129:5000/dorecente');
+      await Linking.openURL('http://192.168.0.99:5000/dorecente');
     } catch (error) {
       console.error('Erro ao baixar:', error);
     } finally {
