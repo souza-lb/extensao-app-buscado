@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# Exibir mensagem inicial
+echo "Observe a saída que você recebeu após iniciar o server (API)"
+echo "Segue um exemplo abaixo:"
+echo "Observe o trecho apontado por <--------"
+
+echo "---------------------------------------------------"
+echo "* Serving Flask app 'server-buscado'"
+echo "* Debug mode: off"
+echo "2025-06-24 16:57:46,201 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead."
+echo "* Running on all addresses (0.0.0.0)"
+echo "* Running on http://127.0.0.1:5000"
+echo "* Running on http://192.168.0.129:5000 <----------"
+echo "2025-06-24 16:57:46,201 - INFO - Press CTRL+C to quit"
+echo "---------------------------------------------------"
+echo
+
+# Solicitar o novo endereço
+read -p "Informe apenas o número "IP" último trecho 'Running on:' e pressione ENTER: " new_address < /dev/tty
+
+# Remover protocolo (caso o usuário tenha colado com http://)
+clean_address=${new_address//http:\/\//}
+
+# Definir endereço antigo
+old_address="192.168.0.99"
+
+# Substituir na pasta /app
+echo -e "\nEntrando na pasta /app"
+cd /app
+
+echo "Substituindo em index.tsx..."
+sed -i "s/$old_address/$clean_address/g" index.tsx
+
+# Substituir na pasta /app/screens
+echo -e "\nEntrando na pasta /app/screens"
+cd screens
+
+# Lista de arquivos para substituir
+files=(
+    "AgendamentoScreen.tsx"
+    "NotFoundScreen.tsx"
+    "RecentScreen.tsx"
+    "SearchScreen.tsx"
+    "StatusScreen.tsx"
+)
+
+# Processar cada arquivo
+for file in "${files[@]}"; do
+    echo "Substituindo em $file..."
+    sed -i "s/$old_address/$clean_address/g" "$file"
+done
+
+# Mensagem final
+echo "Substituições concluídas com sucesso!"
+echo "Endereço antigo: $old_address"
+echo "Novo endereço: $clean_address"
