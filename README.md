@@ -1,88 +1,156 @@
-<h1 align=center>Projeto de Extensão AppBuscaDO</h1>
+# 🚀 Projeto de Extensão AppBuscaDO
 
-<b>Projeto de Extensão da Disciplina Programação pada Disposistivos Móveis em Android - Leonardo Bruno de Souza Silva - 202301011744 - Arquivos da Aplicação e Servidor.</b>
+<div align="center">
+  
+![Badge Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Badge Versão](https://img.shields.io/badge/Versão-1.0-blue)
+![Badge Licença](https://img.shields.io/badge/Licença-MIT-yellow)
 
-<b>Repositório Pricipal do Projeto BuscaDO</b>
+</div>
 
-<b>Ambiente de desenvolvimento básico do projeto com a utilização do OpenJDK17, Maven, Node v22.14.0, Expo SDK 52</b>
+## 📋 Visão Geral do Projeto
+**Projeto de Extensão da Disciplina Programação para Dispositivos Móveis em Android**  
+Desenvolvido por **Leonardo Bruno de Souza Silva**  
+Matrícula: **202301011744**  
+Email: [202301011744@alunos.estacio.br](mailto:202301011744@alunos.estacio.br) | [souzalb@proton.me](mailto:souzalb@proton.me)
 
-Principais arquivos e pastas:
+---
 
-* /app/index.tsx: Ponto de entrada do App. Concentra toda a lógica das telas e deve ficar dentro da pasta /app do projeto.
+## 🧩 Funcionalidades Principais
+```mermaid
+graph LR
+A[AppBuscaDO] --> B[Monitoramento]
+A --> C[Buscas Automatizadas]
+A --> D[Agendamentos]
+B --> E[Diário Oficial de Nova Iguaçu]
+C --> F[Pesquisa por Nomes]
+D --> G[Notificações Programadas]
+```
 
-* /app/screens: Concentra a telas do App.
+---
 
-* app.json: Arquivo com configurações adicionais do projeto.
+## ⚙️ Ambiente de Desenvolvimento
 
-* package.json: Depêndencias projeto React Native para execução do aplicativo móvel.
+| Componente            | Versão               |
+|-----------------------|----------------------|
+| Sistema Operacional   | GNU/Linux Debian 12.10.0 |
+| Java (JDK)            | OpenJDK 17          |
+| Node.js               | v22.14.0            |
+| Gecko Driver          | Linux amd64         |
+| Git (opcional)        | 2.39.2+             |
+| Expo                  | SDK 52              |
+| Python (Backend)      | 3.11.2+             |
 
-* /api/server-buscado.py: Arquivo com backend da aplicação (pasta api). Fornece a api para consumo pelo aplicativo móvel (endpoints)
+---
 
-* /api/requisitos-python.txt: Arquivo com requisitos para rodar api python (backend) 
+## 📁 Estrutura de Arquivos
 
-Para criar o ambiente você vai precisar basicamente de:
+```bash
+├── app/
+│   ├── index.tsx          # Ponto de entrada do App
+│   └── screens/           # Telas do aplicativo
+├── api/
+│   ├── server-buscado.py  # Backend da aplicação
+│   └── requisitos-python.txt # Dependências Python
+├── app.json               # Configurações do projeto
+└── package.json           # Dependências React Native
+```
 
-* GNU Linux Debian 12.10.0
-* OpenJDK17
-* Node v22.14.0
-* Gecko Driver Linux amd64
-* Git 2.39.2 ( ou superior) opcional
-* Expo SDK 52
-* Python 3.11.2 (ou superior) para execução do backend (api)
+---
 
-Sistema Operacional Utilizado:  GNU/Linux Debian 12.10.0
+## 🖥️ Telas do Projeto
 
+### 📱 Interface do Usuário
 
-O que essa aplicação faz?
-Ela permite o monitoramento através buscas automatizadas e agendadas em arquivos do Diário Oficial da Prefeitura de Nova Iguaçu.
+<div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; margin-top: 30px;">
 
-Como ela funciona?
-Uma aplicação construida com React Native (Expo SDK 52) consome um a api construída em python. 
-Dois endpoints são a base do aplicativo fornecendo arquivos e resultados para consumo no app móvel.
-As resposta do endpoint de pesquisa é no formato json. O endpoint para obtenção de do retorna o link para o 
-arquivo pdf do do mais recente.
+<div style="text-align: center; flex: 1 1 300px;">
+  <h3>Tela DO Atual</h3>
+  <img src="/imagens/tela-do-atual.jpeg" alt="Tela DO Atual" style="width: 350px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
+<div style="text-align: center; flex: 1 1 300px;">
+  <h3>Download de Arquivo</h3>
+  <img src="/imagens/tela-arquivo.jpeg" alt="Download de Arquivo" style="width: 350px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
-<h2>Principais Telas do Projeto em Uso:</h2>
+<div style="text-align: center; flex: 1 1 300px;">
+  <h3>Busca por Nome</h3>
+  <img src="/imagens/tela-busca.jpeg" alt="Busca por Nome" style="width: 350px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
-Tela DO Atual
+<div style="text-align: center; flex: 1 1 300px;">
+  <h3>Agendamento</h3>
+  <img src="/imagens/tela-agendamento.jpeg" alt="Agendamento" style="width: 350px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
-<img src="/imagens/tela-do-atual.jpeg" alt="tela inicial" style="width: 30%; height: auto;">
+<div style="text-align: center; flex: 1 1 300px;">
+  <h3>Notificações</h3>
+  <img src="/imagens/notificações.jpeg" alt="Notificações" style="width: 350px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
-Download arquivo 
+<div style="text-align: center; flex: 1 1 300px;">
+  <h3>Status do Serviço</h3>
+  <img src="/imagens/tela-status.png" alt="Status do Serviço" style="width: 350px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
-<img src="/imagens/tela-arquivo.jpeg" alt="tela inicial" style="width: 30%; height: auto;">
+</div>
 
-Tela para busca de nome  
+### ⚙️ Backend e Ferramentas
 
-<img src="/imagens/tela-busca.jpeg" alt="tela inicial" style="width: 30%; height: auto;">
+<div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; margin-top: 40px;">
 
-Tela Agendamento  
+<div style="text-align: center; flex: 1 1 500px;">
+  <h3>Servidor Backend (API)</h3>
+  <img src="/imagens/tela-backend.png" alt="Servidor Backend" style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
-<img src="/imagens/tela-agendamento.jpeg" alt="tela inicial" style="width: 30%; height: auto;">
+<div style="text-align: center; flex: 1 1 500px;">
+  <h3>Ambiente Expo</h3>
+  <img src="/imagens/tela-expo.png" alt="Tela Expo" style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border: 1px solid #eaeaea;">
+</div>
 
-Notificação de agendamento e resultado  
+</div>
 
-<img src="/imagens/notificações.jpeg" alt="tela inicial" style="width: 30%; height: auto;"> 
+---
 
+## 🔄 Fluxo de Funcionamento
+1. **Agendamento**: Usuário configura buscas periódicas
+2. **Automação**: Sistema varre o Diário Oficial
+3. **Processamento**: API Python analisa documentos
+4. **Notificação**: Usuário recebe resultados via app
+5. **Acesso**: Download direto dos arquivos PDF
 
-*Nova Tela Status Serviço
+---
 
-<img src="/imagens/tela-status.png" alt="tela status" style="width: 30%; height: auto;">
+## 📬 Contato
+<div style="background: linear-gradient(135deg, #f0f8ff 0%, #e6f7ff 100%); padding: 20px; border-radius: 15px; margin-top: 30px; border-left: 5px solid #1890ff;">
+  <p style="font-size: 18px; margin-bottom: 15px;">Desenvolvido com ❤️ por <strong>Leonardo Bruno de Souza Silva</strong></p>
+  <p style="margin-bottom: 10px;">
+    <span style="display: inline-block; background: #1890ff; color: white; padding: 8px 15px; border-radius: 30px; margin-right: 10px;">
+      <a href="mailto:souzalb@proton.me" style="color: white; text-decoration: none;">souzalb@proton.me</a>
+    </span>
+    <span style="display: inline-block; background: #52c41a; color: white; padding: 8px 15px; border-radius: 30px;">
+      <a href="mailto:202301011744@alunos.estacio.br" style="color: white; text-decoration: none;">202301011744@alunos.estacio.br</a>
+    </span>
+  </p>
+  <p style="font-size: 16px; color: #595959;">Projeto de Extensão - Programação para Dispositivos Móveis em Android</p>
+</div>
 
+---
 
-Servidor Backend (API)  
+<div align="center" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 15px;">
+  <h3>Tecnologias Utilizadas</h3>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
+    <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo">
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/OpenJDK-437291?style=for-the-badge&logo=openjdk&logoColor=white" alt="OpenJDK">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  </div>
+</div>
 
-![backend](/imagens/tela-backend.png)
-
-Tela Expo  
-
-![tela expo](/imagens/tela-expo.png)  
-
-
-Este repositório foi criado por: <b>Leonardo Bruno de Souza Silva</b><br>
-<b>Matrícula 202301011744</b><br>
-<b>Projeto de Extensão AppBuscaDO da Disciplina Programação para Disposistivos Móveis em Android </b><br>
-202301011744@alunos.estacio.br<br>
-<b>souzalb@proton.me</b>
-
+<div align="center" style="margin-top: 30px; color: #7f7f7f; font-size: 14px;">
+  <p>© 2025 AppBuscaDO - Todos os direitos reservados</p>
+</div>
