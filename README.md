@@ -6,17 +6,19 @@
 
 <b>Ambiente de desenvolvimento básico do projeto com a utilização do OpenJDK17, Maven, Node v22.14.0, Expo SDK 52</b>
 
-Este repositório fornece:
+Principais arquivos e pastas:
 
-* index.tsx: Arquivo principal do App. Concentra toda a lógica das telas e deve ficar dentro da pasta /app do projeto.
+* /app/index.tsx: Ponto de entrada do App. Concentra toda a lógica das telas e deve ficar dentro da pasta /app do projeto.
+
+* /app/screens: Concentra a telas do App.
 
 * app.json: Arquivo com configurações adicionais do projeto.
 
 * package.json: Depêndencias projeto React Native para execução do aplicativo móvel.
 
-* server-buscado.py: Arquivo com backend da aplicação (pasta api). Fornece a api para consumo pelo aplicativo móvel (endpoints)
+* /api/server-buscado.py: Arquivo com backend da aplicação (pasta api). Fornece a api para consumo pelo aplicativo móvel (endpoints)
 
-* requisitos-python.txt: Arquivo com requisitos para rodar api python (backend) 
+* /api/requisitos-python.txt: Arquivo com requisitos para rodar api python (backend) 
 
 Para criar o ambiente você vai precisar basicamente de:
 
@@ -61,8 +63,13 @@ Tela Agendamento
 
 Notificação de agendamento e resultado  
 
-<img src="/imagens/notificações.jpeg" alt="tela inicial" style="width: 30%; height: auto;">  
-  
+<img src="/imagens/notificações.jpeg" alt="tela inicial" style="width: 30%; height: auto;"> 
+
+
+*Nova Tela Status Serviço
+
+<img src="/imagens/tela-status.png" alt="tela status" style="width: 30%; height: auto;">
+
 
 Servidor Backend (API)  
 
