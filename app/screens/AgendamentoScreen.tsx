@@ -28,7 +28,7 @@ export default function AgendamentoScreen() {
 
   const performVerification = async (nameToVerify: string) => {
     try {
-      const response = await fetch(`http://192.168.0.129:5000/dobusca?nome=${encodeURIComponent(nameToVerify)}`);
+      const response = await fetch(`http://192.168.0.99:5000/dobusca?nome=${encodeURIComponent(nameToVerify)}`);
       const data = await response.json();
       const resultText = data.encontrado ? 'Encontrado ✅' : 'Não encontrado ❌';
       
