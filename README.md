@@ -2,10 +2,6 @@
 
 <div align="center">
   
-![Badge Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
-![Badge Versão](https://img.shields.io/badge/Versão-1.0-blue)
-![Badge Licença](https://img.shields.io/badge/Licença-MIT-yellow)
-
 </div>
 
 ## 📋 Visão Geral do Projeto
