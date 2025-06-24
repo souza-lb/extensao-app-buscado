@@ -25,7 +25,7 @@ const Tab = createBottomTabNavigator();
 
 const linking = {
   prefixes: [
-    'exp://192.168.0.129:19000',
+    'exp://192.168.0.99:19000',
     'myapp://',
   ],
   config: {
