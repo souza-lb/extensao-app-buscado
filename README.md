@@ -38,15 +38,26 @@ D --> G[Notificações Programadas]
 
 ## ⚙️ Ambiente de Desenvolvimento
 
-| Componente            | Versão               |
-|-----------------------|----------------------|
-| Sistema Operacional   | GNU/Linux Debian 12.10.0 |
-| Java (JDK)            | OpenJDK 17          |
-| Node.js               | v22.14.0            |
-| Gecko Driver          | Linux amd64         |
-| Git (opcional)        | 2.39.2+             |
-| Expo                  | SDK 52              |
-| Python (Backend)      | 3.11.2+             |
+| Componente            | Versão                   |
+|-----------------------|--------------------------|
+| Sistema Operacional   | GNU/Linux Debian 12.11.0 |
+| Java (JDK)            | OpenJDK 17.0.2           |
+| Node.js               | v22.16.0                 |
+| Gecko Driver          | Linux amd64              |
+| Git (opcional)        | 2.39.5                   |
+| Expo                  | SDK 52                   |
+| Expo-Go               | 2.32.19                  |
+| Python (Backend)      | 3.13.5                   |
+
+## ⚠️ Pontos de Atenção!
+
+Ao utilizar o Expo-Go observe se a versão é compatível com o SDK 52 utilizado no projeto.
+Para o SDK52 é recomendada a utilização do Expo-Go na versão 2.32.19
+
+A partir da versão 53 do SDK o módulo "expo-notifications" teve o suporte removido no aplicativo
+Android Expo-Go. A documentação oficial recomenda a utilização de um "development build" para
+suprir essa remoção. Como o app extensão-app-buscado faz uso das notificações é altemente recomendado
+a utilização do SDK 52.
 
 ---
 
