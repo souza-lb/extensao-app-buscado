@@ -180,7 +180,7 @@ npx expo start
 
 ## 📬 Contato
 <div style="background: linear-gradient(135deg, #f0f8ff 0%, #e6f7ff 100%); padding: 20px; border-radius: 15px; margin-top: 30px; border-left: 5px solid #1890ff;">
-  <p style="font-size: 18px; margin-bottom: 15px;">Desenvolvido com ❤️ por <strong>Leonardo Bruno de Souza Silva</strong></p>
+  <p style="font-size: 18px; margin-bottom: 15px;">Desenvolvido por <strong>Leonardo Bruno de Souza Silva</strong></p>
   <p style="margin-bottom: 10px;">
     <span style="display: inline-block; background: #1890ff; color: white; padding: 8px 15px; border-radius: 30px; margin-right: 10px;">
       <a href="mailto:souzalb@proton.me" style="color: white; text-decoration: none;">souzalb@proton.me</a>
