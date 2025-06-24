@@ -8,7 +8,7 @@ export default function NotFoundScreen() {
       <Text style={styles.error}>Página não encontrada!</Text>
       <Button
         title="Voltar para início"
-        onPress={() => Linking.openURL(Platform.OS === 'ios' ? 'exp://127.0.0.1:19000' : 'exp://192.168.0.129:19000')}
+        onPress={() => Linking.openURL(Platform.OS === 'ios' ? 'exp://127.0.0.1:19000' : 'exp://192.168.0.99:19000')}
         color="#2196F3"
       />
     </View>
