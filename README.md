@@ -12,6 +12,17 @@ Email: [202301011744@alunos.estacio.br](mailto:202301011744@alunos.estacio.br) |
 
 ---
 
+### 🔄 Arquitetura e Funcionamento
+O aplicativo desenvolvido em **React Native** consome uma API simples desenvolvida em **Python** com os seguintes endpoints:
+
+| Endpoint       | Descrição                                                                 | Formato de Resposta |
+|----------------|---------------------------------------------------------------------------|---------------------|
+| `/dorecente`   | Retorna a versão atual em PDF do Diário Oficial                           | Link para PDF       |
+| `/dobusca`     | Recebe um nome como parâmetro e retorna resultados da busca               | JSON                |
+| `/status`      | Retorna o status atual do serviço                                         | JSON                |
+
+---
+
 ## 🧩 Funcionalidades Principais
 ```mermaid
 graph LR
@@ -148,5 +159,5 @@ D --> G[Notificações Programadas]
 </div>
 
 <div align="center" style="margin-top: 30px; color: #7f7f7f; font-size: 14px;">
-  <p>© 2025 AppBuscaDO - Todos os direitos reservados</p>
+  <p>© 2025 AppBuscaDO - Leonardo Bruno - Todos os direitos reservados</p>
 </div>
